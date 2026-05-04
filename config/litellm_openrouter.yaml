@@ -1,0 +1,9 @@
+# LiteLLM Configuration - Using Environment Variables
+# This configuration reads API keys from environment variables
+
+model_list:
+- model_name: gemini-3-pro-preview
+  litellm_params:
+    model: openrouter/google/gemini-3-pro-preview
+    api_key: os.environ/OPENROUTER_API_KEY
+    api_base: "https://openrouter.ai/api/v1"

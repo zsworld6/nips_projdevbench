@@ -1,0 +1,7 @@
+[
+  {
+    "name": "Overall Code Readability and Quality",
+    "description": "Assess overall code readability, naming conventions, and structure clarity.",
+    "script": "llm_as_a_judge"
+  }
+]

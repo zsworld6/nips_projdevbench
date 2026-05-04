@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Forbid Committing CMake Artifacts",
+    "description": "The repository must not contain CMakeFiles/ or CMakeCache.txt.",
+    "reason": "题目要求（README.md 417-422 行）：**IMPORTANT**: You must create a `.gitignore` file in your project root directory to avoid OJ evaluation conflicts. The `.gitignore` file should include at least the following entries:\n\n```gitignore\nCMakeFiles/\nCMakeCache.txt\n```",
+    "script": "run.py"
+  },
+  {
+    "name": "Ensure CMakeLists Outputs code Executable",
+    "description": "Provide a CMakeLists.txt that produces an executable named code.",
+    "reason": "题目要求（README.md 411 行）：After this process is complete, we will use the `code` file in the project root directory as the compilation result.",
+    "script": "run.py",
+    "args": {
+      "path": "CMakeLists.txt"
+    }
+  },
+  {
+    "name": "Disallow Persistent Main Data",
+    "description": "Check whether the implementation avoids keeping primary data permanently in memory.",
+    "script": "llm_as_a_judge"
+  },
+  {
+    "name": "Forbid Filesystem-as-Database Design",
+    "description": "Check the code does not implement a filesystem-as-database style design.",
+    "script": "llm_as_a_judge"
+  },
+  {
+    "name": "Overall Project Readability and Organization Structure",
+    "description": "Assess overall project readability, code organization, and structure clarity.",
+    "script": "llm_as_a_judge"
+  }
+]

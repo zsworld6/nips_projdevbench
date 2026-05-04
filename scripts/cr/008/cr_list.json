@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Respect Line Limit and Bounds",
+    "description": "Ensure the solution keeps the code length <= 65,536 lines and avoids out-of-bounds access.",
+    "script": "llm_as_a_judge"
+  },
+  {
+    "name": "Readability of .mv files",
+    "description": "Assess whether comments, naming, and structure in .mv files are clear and readable.",
+    "script": "llm_as_a_judge"
+  }
+]

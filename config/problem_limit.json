@@ -1,0 +1,121 @@
+{
+  "001": {
+    "name": "A+B Problem",
+    "oj_id": "1000",
+    "summary_before_details_text": "时间限制：1000 ms\n内存空间限制：256 MiB\n磁盘空间限制：不可使用磁盘"
+  },
+  "002": {
+    "name": "int2048 - Big Integer Arithmetic",
+    "oj_id": "2014,2015,2016,2017,2018,2019",
+    "summaries": {
+      "2014": "时间限制：1000 ms\n内存空间限制：47 MiB\n磁盘空间限制：不可使用磁盘",
+      "2015": "时间限制：1000 ms min, \n            5000 ms max\n内存空间限制：47 MiB\n磁盘空间限制：不可使用磁盘",
+      "2016": "时间限制：1000 ms min, \n            2500 ms max\n内存空间限制：47 MiB\n磁盘空间限制：不可使用磁盘",
+      "2017": "时间限制：1000 ms\n内存空间限制：47 MiB\n磁盘空间限制：不可使用磁盘",
+      "2018": "时间限制：1000 ms\n内存空间限制：47 MiB\n磁盘空间限制：不可使用磁盘",
+      "2019": "时间限制：1000 ms min, \n            10000 ms max\n内存空间限制：190 MiB\n磁盘空间限制：不可使用磁盘"
+    }
+  },
+  "003": {
+    "name": "ICPC Management System",
+    "oj_id": "1986",
+    "summary_before_details_text": "时间限制：2000 ms\n内存空间限制：512 MiB\n磁盘空间限制：不可使用磁盘"
+  },
+  "004": {
+    "name": "Bookstore Management System",
+    "oj_id": "1075,1775",
+    "summaries": {
+      "1075": "时间限制：10000 ms\n内存空间限制：64 MiB\n磁盘空间限制：1024 MiB\n文件数量限制：20 个",
+      "1775": "时间限制：10000 ms\n内存空间限制：64 MiB\n磁盘空间限制：1024 MiB\n文件数量限制：20 个"
+    }
+  },
+  "005": {
+    "name": "QOI Format Codec",
+    "oj_id": "1730,1734",
+    "summaries": {
+      "1730": "时间限制：2000 ms min, \n            10000 ms max\n内存空间限制：512 MiB\n磁盘空间限制：不可使用磁盘",
+      "1734": "时间限制：2000 ms min, \n            6000 ms max\n内存空间限制：512 MiB\n磁盘空间限制：不可使用磁盘"
+    }
+  },
+  "006": {
+    "name": "Minesweeper-2025 Assignment",
+    "oj_id": "2876,2877",
+    "summaries": {
+      "2876": "时间限制：1000 ms\n内存空间限制：244 MiB\n磁盘空间限制：不可使用磁盘",
+      "2877": "时间限制：5000 ms min, \n            30000 ms max\n内存空间限制：256 MiB\n磁盘空间限制：不可使用磁盘"
+    }
+  },
+  "007": {
+    "name": "BASIC Interpreter Assignment",
+    "oj_id": "2510",
+    "summary_before_details_text": "时间限制：5000 ms\n内存空间限制：256 MiB\n磁盘空间限制：不可使用磁盘"
+  },
+  "009": {
+    "name": "STLite Vector",
+    "oj_id": "2579",
+    "summary_before_details_text": "时间限制：250 ms min, \n            100000 ms max\n内存空间限制：512 MiB min, \n            768 MiB max\n磁盘空间限制：不可使用磁盘"
+  },
+  "010": {
+    "name": "STLite List (Doubly-Linked List)",
+    "oj_id": "2653",
+    "summary_before_details_text": "时间限制：2000 ms min, \n            25000 ms max\n内存空间限制：512 MiB min, \n            768 MiB max\n磁盘空间限制：不可使用磁盘"
+  },
+  "011": {
+    "name": "STLite Priority Queue",
+    "oj_id": "2623",
+    "summary_before_details_text": "时间限制：1000 ms min, \n            15000 ms max\n内存空间限制：512 MiB\n磁盘空间限制：不可使用磁盘"
+  },
+  "012": {
+    "name": "STLite Linked HashMap",
+    "oj_id": "1866",
+    "summary_before_details_text": "时间限制：400 ms min, \n            24000 ms max\n内存空间限制：512 MiB min, \n            893 MiB max\n磁盘空间限制：不可使用磁盘"
+  },
+  "013": {
+    "name": "STLite Map",
+    "oj_id": "2671,2672",
+    "summaries": {
+      "2671": "时间限制：100 ms min, \n            20000 ms max\n内存空间限制：512 MiB\n磁盘空间限制：不可使用磁盘",
+      "2672": "时间限制：10000 ms min, \n            30000 ms max\n内存空间限制：512 MiB min, \n            893 MiB max\n磁盘空间限制：不可使用磁盘"
+    }
+  },
+  "014": {
+    "name": "Python Interpreter Assignment",
+    "oj_id": "2515",
+    "summary_before_details_text": "时间限制：500 ms min, \n            16000 ms max\n内存空间限制：512 MiB\n磁盘空间限制：不可使用磁盘"
+  },
+  "015": {
+    "name": "File Storage",
+    "oj_id": "2545",
+    "summary_before_details_text": "时间限制：500 ms min, \n            16000 ms max\n内存空间限制：5 MiB min, \n            6 MiB max\n磁盘空间限制：1024 MiB\n文件数量限制：20 个"
+  },
+  "016": {
+    "name": "File Storage BPT",
+    "oj_id": "2697",
+    "summary_before_details_text": "时间限制：500 ms min, \n            5000 ms max\n内存空间限制：64 MiB\n磁盘空间限制：1024 MiB\n文件数量限制：20 个"
+  },
+  "017": {
+    "name": "Train Ticket Management System",
+    "oj_id": "1170",
+    "summary_before_details_text": "时间限制：5000 ms min, \n            40000 ms max\n内存空间限制：42 MiB min, \n            47 MiB max\n磁盘空间限制：366 MiB min, \n            488 MiB max\n文件数量限制：20 个"
+  },
+  "018": {
+    "name": "Scheme Interpreter",
+    "oj_id": "2788",
+    "summary_before_details_text": "时间限制：1500 ms\n内存空间限制：244 MiB\n磁盘空间限制：不可使用磁盘"
+  },
+  "019": {
+    "name": "Mini-Aidiv-N: GPU Memory Optimization for Attention",
+    "oj_id": "2782",
+    "summary_before_details_text": "时间限制：1000 ms\n内存空间限制：244 MiB\n磁盘空间限制：不可使用磁盘"
+  },
+  "020": {
+    "name": "Buddy Algorithm",
+    "oj_id": "1848",
+    "summary_before_details_text": "时间限制：10000 ms\n内存空间限制：244 MiB\n磁盘空间限制：不可使用磁盘"
+  },
+  "021": {
+    "name": "Snooker Brick Out!",
+    "oj_id": "1933",
+    "summary_before_details_text": "时间限制：5000 ms min, \n            50000 ms max\n内存空间限制：1024 MiB\n磁盘空间限制：不可使用磁盘"
+  }
+}

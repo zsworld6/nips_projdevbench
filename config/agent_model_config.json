@@ -1,0 +1,121 @@
+{
+  "agents": {
+    "cursor": {
+      "models": [
+        {
+          "display_name": "gpt-5",
+          "actual_name": "gpt-5"
+        },
+        {
+          "display_name": "gpt-5-codex",
+          "actual_name": "gpt-5-codex"
+        },
+        {
+          "display_name": "sonnet-4.5",
+          "actual_name": "sonnet-4.5"
+        },
+        {
+          "display_name": "sonnet-4.5-thinking",
+          "actual_name": "sonnet-4.5-thinking"
+        },
+        {
+          "display_name": "gemini-3-pro",
+          "actual_name": "gemini-3-pro"
+        }
+      ]
+    },
+    "gemini-cli": {
+      "models": [
+        {
+          "display_name": "gemini-3-pro-preview",
+          "actual_name": "gemini-3-pro-preview"
+        }
+      ]
+    },
+    "claude-code": {
+      "models": [
+        {
+          "display_name": "glm-4.6",
+          "actual_name": "glm-4.6"
+        },
+        {
+          "display_name": "deepseek-reasoner",
+          "actual_name": "deepseek-reasoner"
+        },
+        {
+          "display_name": "qwen3-coder-480b-a35b-instruct",
+          "actual_name": "qwen3-coder-480b-a35b-instruct"
+        },
+        {
+          "display_name": "gpt-5",
+          "actual_name": "gpt-5"
+        },
+        {
+          "display_name": "kimi-k2-0905-preview",
+          "actual_name": "kimi-k2-0905-preview"
+        },
+        {
+          "display_name": "gemini-3-pro-preview",
+          "actual_name": "gemini-3-pro-preview"
+        },
+        {
+          "display_name":"claude-sonnet-4-5-20250929",
+          "actual_name":"claude-sonnet-4-5-20250929"
+        },
+        {
+          "display_name":"claude-haiku-4-5-20251001",
+          "actual_name":"claude-haiku-4-5-20251001"
+        },
+        {
+          "display_name":"claude-opus-4-5-20251101",
+          "actual_name":"claude-opus-4-5-20251101"
+        }
+      ]
+    },
+    "codex": {
+      "models": [
+        {
+          "display_name": "gpt-5",
+          "actual_name": "gpt-5"
+        },
+        {
+          "display_name": "anthropic/claude-sonnet-4.5",
+          "actual_name": "anthropic/claude-sonnet-4.5"
+        },
+        {
+          "display_name": "google/gemini-3-pro-preview",
+          "actual_name": "google/gemini-3-pro-preview"
+        }
+      ]
+    },
+    "augment": {
+      "models": [
+        {
+          "display_name": "GPT-5",
+          "actual_name": "GPT-5"
+        },
+        {
+          "display_name": "sonnet4.5",
+          "actual_name": "sonnet4.5"
+        }
+      ]
+    },
+    "copilot": {
+      "models": [
+        {
+          "display_name": "gpt-5",
+          "actual_name": "gpt-5"
+        },
+        {
+          "display_name": "claude-sonnet-4.5",
+          "actual_name": "claude-sonnet-4.5"
+        },
+        {
+          "display_name": "gemini-3-pro-preview",
+          "actual_name": "gemini-3-pro-preview"
+        }
+      ]
+    }
+  }
+}
+

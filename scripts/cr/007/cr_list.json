@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Ensure CMakeLists Outputs code Executable",
+    "description": "Ensure CMakeLists.txt defines the executable target as code via add_executable(code ...).",
+    "reason": "题目要求（README.md 319 行）：The compiled executable file name must be `code`",
+    "script": "run_1.py",
+    "args": {
+      "path": "CMakeLists.txt"
+    }
+  },
+  {
+    "name": "Restrict Modifications - Keep Basic/Utils Templates",
+    "description": "Ensure helper code under Basic/Utils matches the provided template.",
+    "reason": "题目要求（README.md 173 行）：**DO NOT MODIFY** these files (report issues to TAs if bugs found): Basic/Utils/ (error.cpp/hpp, strlib.cpp/hpp, tokenScanner.cpp/hpp)",
+    "script": "run_2.py",
+    "args": {
+      "files": [
+        "Basic/Utils/error.cpp",
+        "Basic/Utils/error.hpp",
+        "Basic/Utils/strlib.cpp",
+        "Basic/Utils/strlib.hpp",
+        "Basic/Utils/tokenScanner.cpp",
+        "Basic/Utils/tokenScanner.hpp"
+      ],
+      "reference_root": "problem/007",
+      "diffs_dir": ".code_review_diffs"
+    }
+  },
+  {
+    "name": "Overall Project Readability and Organization Structure",
+    "description": "Assess overall project readability, code organization, and structure clarity.",
+    "script": "llm_as_a_judge"
+  }
+]

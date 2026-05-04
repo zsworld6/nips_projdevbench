@@ -1,0 +1,36 @@
+[
+  {
+    "name": "Forbid using namespace std",
+    "description": "Ensure sources and headers do not contain the statement using namespace std;.",
+    "reason": "题目要求（int2048.h 第 18 行）：// Do not use \"using namespace std;\"",
+    "script": "run_1.py",
+    "args": {
+      "pattern": "using namespace std;",
+      "include_suffixes": [
+        ".cpp",
+        ".h",
+        ".hpp",
+        ".cc",
+        ".cxx"
+      ],
+      "case_sensitive": true,
+      "strip_comments": true
+    }
+  },
+  {
+    "name": "Ensure code.cpp Exists",
+    "description": "Submission requires providing a code.cpp file.",
+    "reason": "题目要求（README.md 324 行）：Submit a single file named `code.cpp` to the Online Judge",
+    "script": "run_2.py",
+    "args": {
+      "files": [
+        "code.cpp"
+      ]
+    }
+  },
+  {
+    "name": "Readability of code.cpp",
+    "description": "Assess whether comments, naming, and structure in code.cpp are clear and readable.",
+    "script": "llm_as_a_judge"
+  }
+]

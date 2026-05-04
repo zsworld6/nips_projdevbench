@@ -1,0 +1,155 @@
+# ============================================
+# Environment & Configuration Files with Secrets
+# ============================================
+config/myenv.env
+config/litellm_config.yaml
+config/litellm2genai_config.yaml
+
+logs
+*.log
+
+# ============================================
+# Results and Evaluation Data
+# ============================================
+result/
+cr_result/
+paperresults/
+
+# ============================================
+# Analysis Results (may contain sensitive data)
+# ============================================
+analysis_results.json
+analysis_results.csv
+*.csv
+submission_*.json
+submission_*.log
+
+# ============================================
+# Charts and Generated Images
+# ============================================
+charts/
+
+# ============================================
+# Backup and Temporary Files
+# ============================================
+backup/
+tmp/
+temp/
+*.tmp
+*.bak
+
+# ============================================
+# macOS System Files
+# ============================================
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# ============================================
+# IDE and Editor Files
+# ============================================
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.sublime-*
+
+# ============================================
+# Python
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+
+# ============================================
+# Node.js (if applicable)
+# ============================================
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# ============================================
+# Docker
+# ============================================
+*.tar
+
+# ============================================
+# Compiled Files
+# ============================================
+*.o
+*.out
+*.exe
+*.dll
+*.dylib
+
+# ============================================
+# LaTeX auxiliary files
+# ============================================
+*.aux
+*.lof
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+.*.lb
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.synctex.gz
+*.run.xml
+
+# ============================================
+# Archives
+# ============================================
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# ============================================
+# API related files that might contain tokens
+# ============================================
+api/
+
+# ============================================
+# Specific files to exclude
+# ============================================
+augment_*_max_scores.json
+avg_score_analysis.json
+deep_failure_analysis.md
+failure_case_analysis.md
+COMPREHENSIVE_ANALYSIS_REPORT.md
+FINAL_TOP5_ANALYSIS.md
+HARDEST_PROBLEMS_ANALYSIS.md
+MISMATCH_ROOT_CAUSE_ANALYSIS.md
+PROBLEM_CATEGORIES.md

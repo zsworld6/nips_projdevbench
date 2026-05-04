@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Restrict Modifications - Do Not Modify basic.cpp or advanced.cpp",
+    "description": "Only implement TODOs in server.h/client.h; do not modify basic.cpp or advanced.cpp.",
+    "reason": "题目要求（README.md 331 和 343 行）：Main file: `basic.cpp` (**do not modify**) 和 Main file: `advanced.cpp` (**do not modify**)",
+    "script": "run.py",
+    "args": {
+      "files": [
+        "src/basic.cpp",
+        "src/advanced.cpp"
+      ],
+      "reference_root": "problem/006"
+    }
+  },
+  {
+    "name": "Readability of server.h and client.h",
+    "description": "Assess whether comments, naming, and structure in server.h and client.h are clear and readable.",
+    "script": "llm_as_a_judge"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Forbid Committing CMake Artifacts",
+    "description": "The repository must not contain CMakeFiles/ or CMakeCache.txt.",
+    "reason": "题目要求（README.md 121-128 行）：**IMPORTANT**: You must create a `.gitignore` file in your project root directory to avoid OJ evaluation conflicts. The `.gitignore` file should include at least the following entries:\n\n```gitignore\nCMakeFiles/\nCMakeCache.txt\n```",
+    "script": "run_1.py"
+  },
+  {
+    "name": "Ensure CMakeLists Outputs code Executable",
+    "description": "Provide a CMakeLists.txt that produces an executable named code.",
+    "reason": "题目要求（README.md 115 行）：After this process is complete, we will use the `code` file in the project root directory as the compilation result.",
+    "script": "run_2.py",
+    "args": {
+      "path": "CMakeLists.txt"
+    }
+  },
+  {
+    "name": "Overall Project Readability and Organization Structure",
+    "description": "Assess overall project readability, code organization, and structure clarity.",
+    "script": "llm_as_a_judge"
+  }
+]

@@ -1,0 +1,642 @@
+{
+  "001": {
+    "name": "A+B Problem",
+    "category": "Algorithm",
+    "super_category": "Concept-oriented"
+  },
+  "002": {
+    "name": "int2048 - Big Integer Arithmetic",
+    "category": "Algorithm",
+    "super_category": "Concept-oriented"
+  },
+  "003": {
+    "name": "ICPC Management System",
+    "category": "Management Systems",
+    "super_category": "Real-world Application"
+  },
+  "004": {
+    "name": "Bookstore Management System",
+    "category": "Management Systems",
+    "super_category": "Real-world Application"
+  },
+  "005": {
+    "name": "QOI Format Codec",
+    "category": "Algorithm",
+    "super_category": "Concept-oriented"
+  },
+  "006": {
+    "name": "Minesweeper",
+    "category": "Game/Simulation",
+    "super_category": "Real-world Application"
+  },
+  "007": {
+    "name": "BASIC Interpreter",
+    "category": "Interpreters",
+    "super_category": "Real-world Application"
+  },
+  "008": {
+    "name": "mov Language Problems",
+    "category": "Assembly",
+    "super_category": "Concept-oriented"
+  },
+  "009": {
+    "name": "STLite Vector",
+    "category": "Data Structures",
+    "super_category": "Concept-oriented"
+  },
+  "010": {
+    "name": "STLite List (Doubly-Linked List)",
+    "category": "Data Structures",
+    "super_category": "Concept-oriented"
+  },
+  "011": {
+    "name": "STLite Priority Queue",
+    "category": "Data Structures",
+    "super_category": "Concept-oriented"
+  },
+  "012": {
+    "name": "STLite Linked HashMap",
+    "category": "Data Structures",
+    "super_category": "Concept-oriented"
+  },
+  "013": {
+    "name": "STLite Map",
+    "category": "Data Structures",
+    "super_category": "Concept-oriented"
+  },
+  "014": {
+    "name": "Python Interpreter",
+    "category": "Interpreters",
+    "super_category": "Real-world Application"
+  },
+  "015": {
+    "name": "File Storage",
+    "category": "Storage Systems",
+    "super_category": "Real-world Application"
+  },
+  "016": {
+    "name": "File Storage BPT",
+    "category": "Storage Systems",
+    "super_category": "Real-world Application"
+  },
+  "017": {
+    "name": "Train Ticket Management System",
+    "category": "Management Systems",
+    "super_category": "Real-world Application"
+  },
+  "018": {
+    "name": "Scheme Interpreter",
+    "category": "Interpreters",
+    "super_category": "Real-world Application"
+  },
+  "019": {
+    "name": "GPU Memory Optimization for Attention",
+    "category": "Optimization",
+    "super_category": "Concept-oriented"
+  },
+  "020": {
+    "name": "Buddy Algorithm",
+    "category": "Optimization",
+    "super_category": "Concept-oriented"
+  },
+  "021": {
+    "name": "Rectangle Counting",
+    "category": "Algorithm",
+    "super_category": "Concept-oriented"
+  },
+  "022": {
+    "name": "Guess",
+    "category": "Algorithm",
+    "super_category": "Concept-oriented"
+  },
+  "023": {
+    "name": "deque (John Class)",
+    "category": "Data Structures",
+    "super_category": "Concept-oriented"
+  },
+  "024": {
+    "name": "deque",
+    "category": "Data Structures",
+    "super_category": "Concept-oriented"
+  },
+  "025": {
+    "name": "Plagiarism Detection (抄袭与查重)",
+    "category": "Interpreters",
+    "super_category": "Real-world Application"
+  },
+  "026": {
+    "name": "Arithmetic Calculator (四则运算计算器)",
+    "category": "Interpreters",
+    "super_category": "Real-world Application"
+  },
+  "027": {
+    "name": "Scoped Basic Interpreter 2025",
+    "category": "Interpreters",
+    "super_category": "Real-world Application"
+  },
+  "028": {
+    "name": "Michelle's Student Council Work",
+    "category": "Management Systems",
+    "super_category": "Real-world Application"
+  },
+  "029": {
+    "name": "Malloc Dynamic Storage Allocator",
+    "category": "Optimization",
+    "super_category": "Concept-oriented"
+  },
+  "030": {
+    "name": "Digit Recognition (Winter ver)",
+    "category": "Algorithm",
+    "super_category": "Concept-oriented"
+  },
+  "031": {
+    "name": "Python list",
+    "category": "Data Structures",
+    "super_category": "Concept-oriented"
+  },
+  "032": {
+    "name": "Python list (apple pie ver)",
+    "category": "Data Structures",
+    "super_category": "Concept-oriented"
+  },
+  "033": {
+    "name": "list",
+    "category": "Data Structures",
+    "super_category": "Concept-oriented"
+  },
+  "034": {
+    "name": "Skip List (跳表)",
+    "category": "Data Structures",
+    "super_category": "Concept-oriented"
+  },
+  "035": {
+    "name": "skywong's string",
+    "category": "Data Structures",
+    "super_category": "Concept-oriented"
+  },
+  "036": {
+    "name": "T3 (compressed bitset)",
+    "category": "Data Structures",
+    "super_category": "Concept-oriented"
+  },
+  "037": {
+    "name": "Doubly Linked List, Launch!",
+    "category": "Data Structures",
+    "super_category": "Concept-oriented"
+  },
+  "038": {
+    "name": "vector++",
+    "category": "Data Structures",
+    "super_category": "Concept-oriented"
+  },
+  "039": {
+    "name": "Sparse Matrix Storage",
+    "category": "Algorithm",
+    "super_category": "Concept-oriented"
+  },
+  "040": {
+    "name": "stargazer's Doubly Linked List",
+    "category": "Data Structures",
+    "super_category": "Concept-oriented"
+  },
+  "041": {
+    "name": "map extra",
+    "category": "Data Structures",
+    "super_category": "Concept-oriented"
+  },
+  "042": {
+    "name": "Accelerated Circular Linked List",
+    "category": "Data Structures",
+    "super_category": "Concept-oriented"
+  },
+  "043": {
+    "name": "Pitiful Doubly Linked List",
+    "category": "Data Structures",
+    "super_category": "Concept-oriented"
+  },
+  "044": {
+    "name": "Pitiful String",
+    "category": "Data Structures",
+    "super_category": "Concept-oriented"
+  },
+  "045": {
+    "name": "T4 (Elevator System)",
+    "category": "Game/Simulation",
+    "super_category": "Real-world Application"
+  },
+  "046": {
+    "name": "Mercenary",
+    "category": "Game/Simulation",
+    "super_category": "Real-world Application"
+  },
+  "047": {
+    "name": "Xunying's Robot",
+    "category": "Game/Simulation",
+    "super_category": "Real-world Application"
+  },
+  "048": {
+    "name": "Tetris",
+    "category": "Game/Simulation",
+    "super_category": "Real-world Application"
+  },
+  "049": {
+    "name": "Xunying's Robot (Winter ver)",
+    "category": "Game/Simulation",
+    "super_category": "Real-world Application"
+  },
+  "050": {
+    "name": "Buckshot Roulette (恶魔轮盘)",
+    "category": "Game/Simulation",
+    "super_category": "Real-world Application"
+  },
+  "052": {
+    "name": "Symbolic Differentiation Automaton",
+    "category": "Interpreters",
+    "super_category": "Real-world Application"
+  },
+  "053": {
+    "name": "Moon and Bouquet (Regex Engine)",
+    "category": "Interpreters",
+    "super_category": "Real-world Application"
+  },
+  "054": {
+    "name": "Regulus Loves Differentiation",
+    "category": "Interpreters",
+    "super_category": "Real-world Application"
+  },
+  "055": {
+    "name": "ACM EXPRESS",
+    "category": "Management Systems",
+    "super_category": "Real-world Application"
+  },
+  "056": {
+    "name": "m0ss1's Class-Skipping System",
+    "category": "Management Systems",
+    "super_category": "Real-world Application"
+  },
+  "057": {
+    "name": "Student Grade Management System",
+    "category": "Management Systems",
+    "super_category": "Real-world Application"
+  },
+  "058": {
+    "name": "Pokedex",
+    "category": "Management Systems",
+    "super_category": "Real-world Application"
+  },
+  "059": {
+    "name": "OJ Inheritance and Derivation",
+    "category": "Data Structures",
+    "super_category": "Concept-oriented"
+  },
+  "060": {
+    "name": "Validator Lite",
+    "category": "Data Structures",
+    "super_category": "Concept-oriented"
+  },
+  "061": {
+    "name": "Complex Number",
+    "category": "Algorithm",
+    "super_category": "Concept-oriented"
+  },
+  "062": {
+    "name": "MemoryRiver Easy",
+    "category": "Storage Systems",
+    "super_category": "Real-world Application"
+  },
+  "063": {
+    "name": "MemoryRiver",
+    "category": "Storage Systems",
+    "super_category": "Real-world Application"
+  },
+  "064": {
+    "name": "Modern C++ printf",
+    "category": "Data Structures",
+    "super_category": "Concept-oriented"
+  },
+  "065": {
+    "name": "Naive Block-based Allocator",
+    "category": "Optimization",
+    "super_category": "Concept-oriented"
+  },
+  "066": {
+    "name": "Conless's any_ptr",
+    "category": "Data Structures",
+    "super_category": "Concept-oriented"
+  },
+  "067": {
+    "name": "stargazer's RefCell",
+    "category": "Data Structures",
+    "super_category": "Concept-oriented"
+  },
+  "068": {
+    "name": "Rebuild Allocator (TLSF)",
+    "category": "Optimization",
+    "super_category": "Concept-oriented"
+  },
+  "069": {
+    "name": "Wutong's Memory Manager",
+    "category": "Optimization",
+    "super_category": "Concept-oriented"
+  },
+  "070": {
+    "name": "CPU Task Scheduler",
+    "category": "Management Systems",
+    "super_category": "Real-world Application"
+  },
+  "071": {
+    "name": "Cluster Scheduling",
+    "category": "Optimization",
+    "super_category": "Concept-oriented"
+  },
+  "072": {
+    "name": "RISC-V Simulator 2022",
+    "category": "Interpreters",
+    "super_category": "Real-world Application"
+  },
+  "073": {
+    "name": "RISC-V CPU (rv32i)",
+    "category": "Assembly",
+    "super_category": "Concept-oriented"
+  },
+  "074": {
+    "name": "RISC-V CPU (rv32ic)",
+    "category": "Assembly",
+    "super_category": "Concept-oriented"
+  },
+  "075": {
+    "name": "str",
+    "category": "Data Structures",
+    "super_category": "Concept-oriented"
+  },
+  "076": {
+    "name": "Linklist without name",
+    "category": "Data Structures",
+    "super_category": "Concept-oriented"
+  },
+  "077": {
+    "name": "CrossArray Engineering Problem",
+    "category": "Data Structures",
+    "super_category": "Concept-oriented"
+  },
+  "078": {
+    "name": "Little Demon's Class (Evil)",
+    "category": "Data Structures",
+    "super_category": "Concept-oriented"
+  },
+  "079": {
+    "name": "Linked List Inheritance",
+    "category": "Data Structures",
+    "super_category": "Concept-oriented"
+  },
+  "080": {
+    "name": "Vexoben's Slacking Knight",
+    "category": "Algorithm",
+    "super_category": "Concept-oriented"
+  },
+  "081": {
+    "name": "Vexoben's Orange Juice Factory",
+    "category": "Algorithm",
+    "super_category": "Concept-oriented"
+  },
+  "082": {
+    "name": "Linked Hash Map (2021 Final)",
+    "category": "Data Structures",
+    "super_category": "Concept-oriented"
+  },
+  "083": {
+    "name": "T3 Josephus Ring",
+    "category": "Data Structures",
+    "super_category": "Concept-oriented"
+  },
+  "084": {
+    "name": "Linked Hash Map",
+    "category": "Data Structures",
+    "super_category": "Concept-oriented"
+  },
+  "085": {
+    "name": "Prune Binary Tree",
+    "category": "Algorithm",
+    "super_category": "Concept-oriented"
+  },
+  "086": {
+    "name": "Swap Tree Nodes",
+    "category": "Algorithm",
+    "super_category": "Concept-oriented"
+  },
+  "087": {
+    "name": "Falling Balls",
+    "category": "Game/Simulation",
+    "super_category": "Real-world Application"
+  },
+  "088": {
+    "name": "T3 Magic",
+    "category": "Algorithm",
+    "super_category": "Concept-oriented"
+  },
+  "089": {
+    "name": "Buddy Allocator C++",
+    "category": "Optimization",
+    "super_category": "Concept-oriented"
+  },
+  "090": {
+    "name": "T4 Resistor Network",
+    "category": "Algorithm",
+    "super_category": "Concept-oriented"
+  },
+  "091": {
+    "name": "ESet - Speedtest",
+    "category": "Optimization",
+    "super_category": "Concept-oriented"
+  },
+  "092": {
+    "name": "Black Hole Cosine's Resistor Network",
+    "category": "Algorithm",
+    "super_category": "Concept-oriented"
+  },
+  "093": {
+    "name": "Czar's Silly Pacman",
+    "category": "Game/Simulation",
+    "super_category": "Real-world Application"
+  },
+  "094": {
+    "name": "Mosaic Detective",
+    "category": "Algorithm",
+    "super_category": "Concept-oriented"
+  },
+  "095": {
+    "name": "SubSir's Permutation Cycle Transposition",
+    "category": "Algorithm",
+    "super_category": "Concept-oriented"
+  },
+  "096": {
+    "name": "Binary Tree Cousins",
+    "category": "Algorithm",
+    "super_category": "Concept-oriented"
+  },
+  "097": {
+    "name": "Binary Tree Node Search",
+    "category": "Algorithm",
+    "super_category": "Concept-oriented"
+  },
+  "098": {
+    "name": "BST Node Search",
+    "category": "Algorithm",
+    "super_category": "Concept-oriented"
+  },
+  "099": {
+    "name": "Fishing Master",
+    "category": "Algorithm",
+    "super_category": "Concept-oriented"
+  },
+  "100": {
+    "name": "TOmorrow's Perfect Number",
+    "category": "Algorithm",
+    "super_category": "Concept-oriented"
+  },
+  "101": {
+    "name": "TOmorrow's Pointer (Clock)",
+    "category": "Algorithm",
+    "super_category": "Concept-oriented"
+  },
+  "102": {
+    "name": "Fixed-width Base-B String Addition",
+    "category": "Algorithm",
+    "super_category": "Concept-oriented"
+  },
+  "103": {
+    "name": "Slay the Balatro",
+    "category": "Game/Simulation",
+    "super_category": "Real-world Application"
+  },
+  "104": {
+    "name": "Procurement (Shortest Path)",
+    "category": "Algorithm",
+    "super_category": "Concept-oriented"
+  },
+  "105": {
+    "name": "Xiaoyuan Eats Apples",
+    "category": "Algorithm",
+    "super_category": "Concept-oriented"
+  },
+  "106": {
+    "name": "Split Islands",
+    "category": "Algorithm",
+    "super_category": "Concept-oriented"
+  },
+  "107": {
+    "name": "Little Demon's Singly Circular Linked List",
+    "category": "Data Structures",
+    "super_category": "Concept-oriented"
+  },
+  "108": {
+    "name": "Bounded Knapsack",
+    "category": "Algorithm",
+    "super_category": "Concept-oriented"
+  },
+  "109": {
+    "name": "Ireina's Barrier",
+    "category": "Algorithm",
+    "super_category": "Concept-oriented"
+  },
+  "110": {
+    "name": "Little Demon's Birthday (Date class)",
+    "category": "Algorithm",
+    "super_category": "Concept-oriented"
+  },
+  "111": {
+    "name": "Cstring Implement III (strtok)",
+    "category": "Data Structures",
+    "super_category": "Concept-oriented"
+  },
+  "112": {
+    "name": "Shell Simulation",
+    "category": "Game/Simulation",
+    "super_category": "Real-world Application"
+  },
+  "113": {
+    "name": "T3 Linked List Stack/Queue",
+    "category": "Data Structures",
+    "super_category": "Concept-oriented"
+  },
+  "114": {
+    "name": "zhongzero's Pointer Vector",
+    "category": "Data Structures",
+    "super_category": "Concept-oriented"
+  },
+  "115": {
+    "name": "Komeiji Koishi's Pointer (unique_ptr)",
+    "category": "Data Structures",
+    "super_category": "Concept-oriented"
+  },
+  "116": {
+    "name": "GreedySnake",
+    "category": "Game/Simulation",
+    "super_category": "Real-world Application"
+  },
+  "117": {
+    "name": "Xiaoh's Cache Replacement",
+    "category": "Optimization",
+    "super_category": "Concept-oriented"
+  },
+  "118": {
+    "name": "Fraction",
+    "category": "Algorithm",
+    "super_category": "Concept-oriented"
+  },
+  "119": {
+    "name": "Linear Scan",
+    "category": "Optimization",
+    "super_category": "Concept-oriented"
+  },
+  "120": {
+    "name": "TimingWheel",
+    "category": "Data Structures",
+    "super_category": "Concept-oriented"
+  },
+  "121": {
+    "name": "Complex",
+    "category": "Algorithm",
+    "super_category": "Concept-oriented"
+  },
+  "122": {
+    "name": "Memo",
+    "category": "Optimization",
+    "super_category": "Concept-oriented"
+  },
+  "123": {
+    "name": "RAID5",
+    "category": "Storage Systems",
+    "super_category": "Real-world Application"
+  },
+  "124": {
+    "name": "Xiziya's Ticketing System",
+    "category": "Management Systems",
+    "super_category": "Real-world Application"
+  },
+  "125": {
+    "name": "Debugger (Union-Find)",
+    "category": "Algorithm",
+    "super_category": "Concept-oriented"
+  },
+  "126": {
+    "name": "Xiaoh's Game of Life",
+    "category": "Game/Simulation",
+    "super_category": "Real-world Application"
+  },
+  "127": {
+    "name": "Card Master (Interval DP)",
+    "category": "Algorithm",
+    "super_category": "Concept-oriented"
+  },
+  "128": {
+    "name": "livandan's Tic-Tac-Toe",
+    "category": "Game/Simulation",
+    "super_category": "Real-world Application"
+  },
+  "129": {
+    "name": "Scope-2025",
+    "category": "Interpreters",
+    "super_category": "Real-world Application"
+  }
+}

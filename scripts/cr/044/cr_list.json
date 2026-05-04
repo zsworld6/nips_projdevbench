@@ -1,0 +1,28 @@
+[
+  {
+    "name": "CMake Artifact Ignore Configuration",
+    "description": "Ensure the repository root provides a .gitignore listing CMakeFiles/ and CMakeCache.txt.",
+    "reason": "The project must create a .gitignore file in the project root directory to avoid OJ evaluation conflicts.",
+    "script": "run.py",
+    "args": {
+      "entries": [
+        "CMakeFiles/",
+        "CMakeCache.txt"
+      ]
+    }
+  },
+  {
+    "name": "Ensure CMakeLists Outputs code Executable",
+    "description": "Provide a CMakeLists.txt that produces an executable named code.",
+    "reason": "The compiled executable file name must be code.",
+    "script": "run_1.py",
+    "args": {
+      "path": "CMakeLists.txt"
+    }
+  },
+  {
+    "name": "Overall Project Readability and Organization Structure",
+    "description": "Assess overall project readability, code organization, and structure clarity.",
+    "script": "llm_as_a_judge"
+  }
+]

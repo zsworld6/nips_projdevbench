@@ -1,0 +1,48 @@
+3
+supply bullet 5 1
+supply item 0 magnifier
+supply item 0 cage
+supply item 1 dummy
+supply item 1 converter
+query live
+query blank
+op use_magnifier live
+query live
+query blank
+op fire_opponent live
+query live
+query blank
+op fire_self live
+query live
+op fire_opponent live
+op fire_self live
+op fire_opponent live
+supply bullet 6 0
+supply item 0 converter
+supply item 0 magnifier
+supply item 1 cage
+supply item 1 cage
+op use_dummy live
+query live
+op fire_opponent live
+op use_cage
+op use_cage
+query live
+op fire_opponent live
+op fire_opponent live
+op fire_self live
+op fire_opponent live
+op fire_self live
+supply bullet 6 0
+supply item 0 dummy
+supply item 0 magnifier
+supply item 1 converter
+supply item 1 dummy
+query live
+op use_dummy live
+query live
+op fire_opponent live
+op fire_self live
+op fire_opponent live
+op fire_self live
+op fire_opponent live

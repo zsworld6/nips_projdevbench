@@ -1,0 +1,41 @@
+[
+  {
+    "name": "Restrict Allowed Standard Headers",
+    "description": "Allow only the headers <cstdio>, <cstring>, <iostream>, <cmath>, and <string>. Headers already present in the template are allowed.",
+    "reason": "题目要求（README.md 113-119 行）：**IMPORTANT**: In this assignment, you are only allowed to use the following five C++ standard library headers: `<cstdio>`, `<cstring>`, `<iostream>`, `<cmath>`, `<string>`. If you need other functionality, please implement it yourself.",
+    "script": "run_1.py",
+    "args": {
+      "files": [
+        "map.hpp",
+        "src/map.hpp"
+      ],
+      "allowed": [
+        "cstdio",
+        "cstring",
+        "iostream",
+        "cmath",
+        "string"
+      ],
+      "reference_root": "problem/013"
+    }
+  },
+  {
+    "name": "Restrict Modifications - Keep Local Test Helper Files Unchanged",
+    "description": "Confirm src/exceptions.hpp and src/utility.hpp remain unchanged from the template.",
+    "reason": "题目要求（README.md 98 行）：**`src/exceptions.hpp`** and **`src/utility.hpp`**: Code required for correct local testing (**DO NOT MODIFY**).",
+    "script": "run_2.py",
+    "args": {
+      "files": [
+        "src/exceptions.hpp",
+        "src/utility.hpp"
+      ],
+      "reference_root": "problem/013",
+      "diffs_dir": ".code_review_diffs"
+    }
+  },
+  {
+    "name": "Readability of map.hpp",
+    "description": "Assess whether comments, naming, and structure in map.hpp are clear and readable.",
+    "script": "llm_as_a_judge"
+  }
+]

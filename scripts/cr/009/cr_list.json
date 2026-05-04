@@ -1,0 +1,40 @@
+[
+  {
+    "name": "Restrict Allowed Standard Headers",
+    "description": "Allow only the headers <cstdio>, <cstring>, <iostream>, <cmath>, and <string>. Headers already present in the template are allowed.",
+    "reason": "题目要求（README.md 86-91 行）：**IMPORTANT**: In this assignment, you are only allowed to use the following five C++ standard library headers: `<cstdio>`, `<cstring>`, `<iostream>`, `<cmath>`, `<string>`. If you need other functionality, please implement it yourself.",
+    "script": "run_1.py",
+    "args": {
+      "files": [
+        "src/vector.hpp"
+      ],
+      "allowed": [
+        "cstdio",
+        "cstring",
+        "iostream",
+        "cmath",
+        "string"
+      ],
+      "reference_root": "problem/009"
+    }
+  },
+  {
+    "name": "Restrict Modifications - Keep Helper Headers Unchanged",
+    "description": "Confirm exceptions.hpp and utility.hpp match the provided helpers.",
+    "reason": "题目要求（README.md 73 行）：**`exceptions.hpp`** and **`utility.hpp`**: Auxiliary files (**DO NOT MODIFY**). These provide exception handling classes and the pair class, which you can use freely in your code.",
+    "script": "run_2.py",
+    "args": {
+      "files": [
+        "src/exceptions.hpp",
+        "src/utility.hpp"
+      ],
+      "reference_root": "problem/009",
+      "diffs_dir": ".code_review_diffs"
+    }
+  },
+  {
+    "name": "Readability of vector.hpp",
+    "description": "Assess whether comments, naming, and structure in vector.hpp are clear and readable.",
+    "script": "llm_as_a_judge"
+  }
+]
