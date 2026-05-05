@@ -5,7 +5,7 @@
 **ProjDevBench** (Project Development Benchmark) is a benchmark platform for evaluating AI coding agents on end-to-end project development tasks. Unlike existing benchmarks that focus on issue-level bug fixing, ProjDevBench evaluates agents on their ability to construct complete, executable software repositories from high-level specifications.
 
 <p align="center">
-  <img src="assets/tasks.png" alt="Task Comparison" width="600">
+  <img src="assets/tasks.png" alt="Task Comparison" width="900">
 </p>
 
 <p align="center">
