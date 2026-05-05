@@ -128,6 +128,8 @@ projdevbench/
 │   └── run_evaluation.sh           # Single-problem evaluation
 ├── problem/                        # 128 problem statements + submit clients
 ├── data/                           # Test data / final-logs / cr_result (user-provided)
+├── examples/
+│   └── trajectories/               # Curated agent run logs across the 4 scaffolds (see README inside)
 └── results/                        # Output directory for analysis scripts
 ```
 
