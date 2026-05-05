@@ -42,6 +42,52 @@
 | (framework, model) Combinations | 15 |
 | Frameworks Covered | Claude Code, Codex CLI, OpenHands, Gemini CLI |
 
+## Leaderboard
+
+Scores follow the paper's evaluation protocol on the full 128-problem benchmark. **Exec** uses the per-problem submission budget defined in `config/problem_registry.json` (multi-submission); **Exec@1** keeps only the first non-aborted submission per subproblem (single-shot). Higher is better.
+
+### Exec leaderboard
+
+| Rank | Scaffold | Model | Exec |
+|:----:|----------|-------|-----:|
+|  1 | Codex CLI    | GPT-5             | **77.34** |
+|  2 | OpenHands    | GPT-5             | 74.91 |
+|  3 | Claude Code  | Sonnet-4.5        | 69.03 |
+|  4 | OpenHands    | Gemini-3-Flash    | 64.35 |
+|  5 | Gemini CLI   | Gemini-3-Flash    | 60.16 |
+|  6 | OpenHands    | Sonnet-4.5        | 59.79 |
+|  7 | Codex CLI    | Sonnet-4.5        | 56.54 |
+|  8 | Codex CLI    | Gemini-3-Flash    | 52.15 |
+|  9 | OpenHands    | GLM-4.6           | 48.61 |
+| 10 | Claude Code  | Gemini-3-Flash    | 46.31 |
+| 11 | Codex CLI    | qwen3-235b        | 42.18 |
+| 11 | Claude Code  | GPT-5             | 42.18 |
+| 13 | OpenHands    | qwen3-235b        | 39.48 |
+| 14 | Codex CLI    | GLM-4.6           | 33.98 |
+| 15 | Codex CLI    | gpt-oss-120b      | 25.43 |
+
+### Exec@1 leaderboard
+
+| Rank | Scaffold | Model | Exec@1 |
+|:----:|----------|-------|-------:|
+|  1 | OpenHands    | Gemini-3-Flash    | **49.18** |
+|  2 | OpenHands    | GPT-5             | 47.56 |
+|  3 | Gemini CLI   | Gemini-3-Flash    | 47.50 |
+|  4 | Codex CLI    | GPT-5             | 45.33 |
+|  5 | OpenHands    | Sonnet-4.5        | 44.82 |
+|  6 | Claude Code  | Sonnet-4.5        | 43.91 |
+|  7 | Codex CLI    | Sonnet-4.5        | 39.42 |
+|  8 | Claude Code  | GPT-5             | 34.12 |
+|  9 | OpenHands    | GLM-4.6           | 34.10 |
+| 10 | Codex CLI    | Gemini-3-Flash    | 31.40 |
+| 11 | OpenHands    | qwen3-235b        | 31.17 |
+| 12 | Claude Code  | Gemini-3-Flash    | 29.99 |
+| 13 | Codex CLI    | qwen3-235b        | 26.28 |
+| 14 | Codex CLI    | GLM-4.6           | 20.82 |
+| 15 | Codex CLI    | gpt-oss-120b      | 13.99 |
+
+> No configuration exceeds 50% on Exec@1 — current agents depend heavily on iterative feedback rather than one-shot correctness. The Exec / Exec@1 gap (avg 17 points, max 32) is itself an axis of evaluation.
+
 ## Problem Categories
 
 <p align="center">
