@@ -7,6 +7,8 @@ config/litellm2genai_config.yaml
 
 logs
 *.log
+# Curated trajectories shipped with the repo are exempt
+!examples/trajectories/**/*.log
 
 # ============================================
 # Results and Evaluation Data
