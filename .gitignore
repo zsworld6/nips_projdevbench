@@ -25,6 +25,8 @@ analysis_results.csv
 *.csv
 submission_*.json
 submission_*.log
+# Curated trajectories shipped with the repo are exempt (must come after rules above)
+!examples/trajectories/**/*.log
 
 # ============================================
 # Charts and Generated Images
