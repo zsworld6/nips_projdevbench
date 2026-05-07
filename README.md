@@ -140,7 +140,7 @@ projdevbench/
 - Docker Desktop or Docker Engine
 - Git, jq, Python 3.8+
 - GitHub account with a Personal Access Token (a dedicated experiment account is recommended)
-- An OJ account with API token. A pre-provisioned `OJ_TOKEN` is already filled in `config/environment.env` so the analysis pipeline can be run out-of-the-box; replace it with your own token if you intend to submit new runs.
+- An OJ account with API token — you can register at [ACMOJ](https://acm.sjtu.edu.cn/OnlineJudge) and obtain a token from the site's API settings. A pre-provisioned `OJ_TOKEN` is already filled in `config/environment.env` so the analysis pipeline can be run out-of-the-box; replace it with your own token if you intend to submit new runs.
 
 ### GitHub Token Requirements
 
