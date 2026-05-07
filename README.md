@@ -1,6 +1,6 @@
 # ProjDevBench
 
-> **Anonymous submission.** This repository is released anonymously to accompany a double-blind paper submission. Author information, the project homepage, and a public release URL will be added upon acceptance.
+> **Single-blind submission.** This repository accompanies a single-blind paper submission. Authors are listed in the LICENSE; the project homepage and a public release URL will be added upon acceptance.
 
 **ProjDevBench** (Project Development Benchmark) is a benchmark platform for evaluating AI coding agents on end-to-end project development tasks. Unlike existing benchmarks that focus on issue-level bug fixing, ProjDevBench evaluates agents on their ability to construct complete, executable software repositories from high-level specifications.
 
@@ -334,7 +334,7 @@ Per-run logs are saved under `logs/<agent>/<model>/<problem_id>/` as
 
 ## License
 
-MIT License
+This work is licensed under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). See [LICENSE](LICENSE) for the full text.
 
 ## Citation
 
